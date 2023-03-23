@@ -1,0 +1,237 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0c34e72d0bc2713f767b12cef4ef257/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0c34e72d0bc2713f767b12cef4ef257/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/a6882876653fce9566ffebb4b545498a/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/a6882876653fce9566ffebb4b545498a/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/df56d4809ecb1a92c3f4f4dbf860c9bd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/df56d4809ecb1a92c3f4f4dbf860c9bd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bhavini-pc/.gradle/caches/transforms-3/c8f5a02daabfdb57398d0f9efdd3b2cc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bhavini-pc/.gradle/caches/transforms-3/c8f5a02daabfdb57398d0f9efdd3b2cc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/d7e2d18ae27616d7b8c92da5967fdfc6/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/4af7643a997af94ceba5702a271e475a/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0c34e72d0bc2713f767b12cef4ef257/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/5b800285ea8ee366de08045f8c6f0645/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/a6882876653fce9566ffebb4b545498a/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/df56d4809ecb1a92c3f4f4dbf860c9bd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/5d8cb73e575f1fa26bb965cefe9cfe55/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/ce538e55e22dcd7611b9ff1bad1f92b0/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/757209168ea03cfc20fac7dcb4253c14/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/b7d32fb7940d0436a299b5c14145cb16/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/1be6a2aabe1e6fedeb4954bbab0b3f41/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/bhavini-pc/.gradle/caches/transforms-3/38e4cc76f8bd5e12f4026aad55e650a9/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/3459683d5e11ef440f4bc22490c54921/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/7050c65e40dff0a76439a7247b37b492/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/e391550d1e67c363e7567750617cef96/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/c1dbcae94f9ea0825b116b484ff74509/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0eaeb8f0425cd9b04b0637747c7a729/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/c0e3180007cfff120ea5db8b2198312b/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bhavini-pc/.gradle/caches/transforms-3/c8f5a02daabfdb57398d0f9efdd3b2cc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/d4cfa1155f506955053cec8cbeca63ce/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/b50871239c9118a94150a022a555ffb4/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.50.2] /home/bhavini-pc/.gradle/caches/transforms-3/1e7c9691af1b92dfaa2abae6f0746b21/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/ca0459f2b61618257694d91f6ba16f20/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/d7e2d18ae27616d7b8c92da5967fdfc6/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/d7e2d18ae27616d7b8c92da5967fdfc6/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/4af7643a997af94ceba5702a271e475a/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/4af7643a997af94ceba5702a271e475a/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0c34e72d0bc2713f767b12cef4ef257/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0c34e72d0bc2713f767b12cef4ef257/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/5b800285ea8ee366de08045f8c6f0645/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/5b800285ea8ee366de08045f8c6f0645/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/a6882876653fce9566ffebb4b545498a/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/a6882876653fce9566ffebb4b545498a/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/df56d4809ecb1a92c3f4f4dbf860c9bd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/bhavini-pc/.gradle/caches/transforms-3/df56d4809ecb1a92c3f4f4dbf860c9bd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/5d8cb73e575f1fa26bb965cefe9cfe55/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/5d8cb73e575f1fa26bb965cefe9cfe55/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/ce538e55e22dcd7611b9ff1bad1f92b0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/ce538e55e22dcd7611b9ff1bad1f92b0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/757209168ea03cfc20fac7dcb4253c14/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/757209168ea03cfc20fac7dcb4253c14/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/b7d32fb7940d0436a299b5c14145cb16/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/b7d32fb7940d0436a299b5c14145cb16/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/1be6a2aabe1e6fedeb4954bbab0b3f41/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/1be6a2aabe1e6fedeb4954bbab0b3f41/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/bhavini-pc/.gradle/caches/transforms-3/38e4cc76f8bd5e12f4026aad55e650a9/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/bhavini-pc/.gradle/caches/transforms-3/38e4cc76f8bd5e12f4026aad55e650a9/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/3459683d5e11ef440f4bc22490c54921/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/3459683d5e11ef440f4bc22490c54921/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/7050c65e40dff0a76439a7247b37b492/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/7050c65e40dff0a76439a7247b37b492/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/e391550d1e67c363e7567750617cef96/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/e391550d1e67c363e7567750617cef96/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/c1dbcae94f9ea0825b116b484ff74509/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/c1dbcae94f9ea0825b116b484ff74509/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0eaeb8f0425cd9b04b0637747c7a729/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/a0eaeb8f0425cd9b04b0637747c7a729/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/c0e3180007cfff120ea5db8b2198312b/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/c0e3180007cfff120ea5db8b2198312b/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bhavini-pc/.gradle/caches/transforms-3/c8f5a02daabfdb57398d0f9efdd3b2cc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/bhavini-pc/.gradle/caches/transforms-3/c8f5a02daabfdb57398d0f9efdd3b2cc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/d4cfa1155f506955053cec8cbeca63ce/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/d4cfa1155f506955053cec8cbeca63ce/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/b50871239c9118a94150a022a555ffb4/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/bhavini-pc/.gradle/caches/transforms-3/b50871239c9118a94150a022a555ffb4/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.50.2] /home/bhavini-pc/.gradle/caches/transforms-3/1e7c9691af1b92dfaa2abae6f0746b21/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /home/bhavini-pc/.gradle/caches/transforms-3/1e7c9691af1b92dfaa2abae6f0746b21/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/ca0459f2b61618257694d91f6ba16f20/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/ca0459f2b61618257694d91f6ba16f20/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml:7:5-66
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /home/bhavini-pc/sandip_work/untitled/android/app/src/debug/AndroidManifest.xml:7:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /home/bhavini-pc/sandip_work/untitled/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /home/bhavini-pc/sandip_work/untitled/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /home/bhavini-pc/.gradle/caches/transforms-3/1e7c9691af1b92dfaa2abae6f0746b21/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /home/bhavini-pc/.gradle/caches/transforms-3/1e7c9691af1b92dfaa2abae6f0746b21/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:12:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
