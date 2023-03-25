@@ -4,6 +4,7 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:untitled/models/student.dart';
+import 'package:untitled/services/firebase_crud.dart';
  import 'package:untitled/ui/add_user.dart';
 // import 'package:firestoredatabase/productItem.dart';
 import 'package:flutter/material.dart';
@@ -141,13 +142,18 @@ class _HomePageState extends State<HomePage> {
             itemCount: snapshot.data!.docs.length,
             itemBuilder: (context, index) {
               DocumentSnapshot data = snapshot.data!.docs[index];
-              //return Container();
+              // return Container();
               return StudentList(
                 name: data['name'],
                 enrollNo: data['enrollNo'],
                 age: data['age'],
                 email: data['email'],
               );
+              /*return ListTile(
+                contentPadding: const EdgeInsets.symmetric(horizontal: 20,vertical: 5),
+                leading:  const Icon(Icons.update),
+                title: Text(data.data()."name"]),
+              );*/
             },
           );
         },

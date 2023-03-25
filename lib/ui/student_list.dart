@@ -35,17 +35,6 @@ class _StudentListState extends State<StudentList> {
         ),
         child: Row(
           children: <Widget>[
-            SizedBox(
-              height: 100,
-              width: 150,
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(10),
-                //child: Image.network(
-                 // widget.imageUrl,
-                 // fit: BoxFit.cover,
-                //),
-              ),
-            ),
             Padding(
               padding: const EdgeInsets.only(left: 10.0),
               child: Column(
@@ -69,7 +58,27 @@ class _StudentListState extends State<StudentList> {
                         child: Text(" ${widget.enrollNo}",
                             style:
                             const TextStyle(color: Colors.white, fontSize: 20)),
-                      )
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Text(
+                          widget.age,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              fontSize: 25),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 8.0),
+                        child: Text(
+                          widget.email,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              fontSize: 25),
+                        ),
+                      ),
                     ],
                   ),
                   Row(
