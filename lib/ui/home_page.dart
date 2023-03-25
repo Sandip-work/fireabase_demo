@@ -1,8 +1,15 @@
+import 'dart:async';
+import 'dart:developer';
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:untitled/models/student.dart';
  import 'package:untitled/ui/add_user.dart';
 // import 'package:firestoredatabase/productItem.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/ui/student_list.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
+
 
 class HomePage extends StatefulWidget {
   //static const routeName = 'homePage';
@@ -14,6 +21,32 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   late String id;
+  Connectivity connectivity = Connectivity();
+  bool hasConnection = false;
+  ConnectivityResult? connectionMedium;
+  StreamController<bool> connectionChangeController = StreamController.broadcast();
+  Stream<bool> get connectionChange => connectionChangeController.stream;
+  connectivityService(){
+    checkInternetConnection();
+  }
+  Future<bool> checkInternetConnection()async{
+    bool previousConnection = hasConnection;
+    try{
+      final result = await InternetAddress.lookup('google.com');
+      if(result.isNotEmpty && result[0].rawAddress.isNotEmpty){
+        hasConnection = true;
+      }else{
+        hasConnection= false;
+      }
+    } on SocketException catch (_){
+      hasConnection = false;
+    }
+    if(previousConnection != hasConnection){
+      connectionChangeController.add(hasConnection);
+    }
+    return hasConnection;
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -93,15 +126,22 @@ class _HomePageState extends State<HomePage> {
         title: const Text("STUDENTS LIST"),
         backgroundColor: Colors.black,
       ),
-      body: StreamBuilder<QuerySnapshot>(
-        stream: FirebaseFirestore.instance.collection("products").snapshots(),
+      body: FutureBuilder<QuerySnapshot>(
+        future: FirebaseFirestore.instance.collection("students").get(),
         builder: (context, snapshot) {
+          if(snapshot.data != null) {
+            log("snapshot: ${snapshot.data!.docs.toString()}");
+          }else{
+            log("snapshot: is empty");
+          }
+          //List<Students> newList = List<Students>.from(snapshot.data!.docs.toList());
           return !snapshot.hasData
               ? const Center(child: CircularProgressIndicator())
               : ListView.builder(
             itemCount: snapshot.data!.docs.length,
             itemBuilder: (context, index) {
               DocumentSnapshot data = snapshot.data!.docs[index];
+              //return Container();
               return StudentList(
                 name: data['name'],
                 enrollNo: data['enrollNo'],

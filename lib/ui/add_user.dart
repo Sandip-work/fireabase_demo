@@ -125,7 +125,10 @@ class _AddUserState extends State<AddUser> {
                   ),
                   onPressed: () {
                     addStudent(
-                         name: '', enrollNo: '', age: '', email: '');
+                        name: studentNameController.text,
+                        enrollNo: enrollNoController.text,
+                        age: ageController.text,
+                        email: emailController.text);
                     Navigator.of(context).pop();
                   },
                 ),
