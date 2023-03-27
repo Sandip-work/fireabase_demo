@@ -144,13 +144,14 @@ class _HomePageState extends State<HomePage> {
               DocumentSnapshot data = snapshot.data!.docs[index];
 
               log("data:$data" );
+               var id = data.reference.id;
+               log('id $id');
 
                return StudentList(
                  name: data['StudentName'],
                  enrollNo: data['enrollmentNumber'],
                  age: data['age'],
-                 email: data['Email'],
-               );
+                 email: data['Email'],);
             },
           );
         },

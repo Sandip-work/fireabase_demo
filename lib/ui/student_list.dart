@@ -22,20 +22,21 @@ class StudentList extends StatefulWidget {
 }
 
 class _StudentListState extends State<StudentList> {
+
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return Container(
       padding: const EdgeInsets.all(8.0),
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
-          color: Colors.black,
+          color: Colors.blueAccent,
         ),
         child: Row(
           children: <Widget>[
-            Padding(
+            Container(
               padding: const EdgeInsets.only(left: 10.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -84,20 +85,35 @@ class _StudentListState extends State<StudentList> {
                   Row(
                     children: <Widget>[
                       IconButton(
-                        onPressed: () {
+                        onPressed: () async {
+                          await db.collection("students").doc().update({
+                            // 'enrollmentNumber': enrollNo,
+                            // 'StudentName': name,
+                            // 'age': age,
+                            // 'Email': email,
+                          }).then((documentReference) {
+
+                          });
                         //  editProduct();
                         },
                         icon:
                              const Icon(
                           Icons.update,
-                          color: Colors.greenAccent,
+                          color: Colors.greenAccent
                         )
                       ),
                       IconButton(
-                        onPressed: () {
-                          setState(() {
-                            deleteStudent("StudentName");
-                          });
+                        onPressed: () async {
+
+                         final collection = FirebaseFirestore.instance.collection('students');
+
+                         await collection
+                              .doc()
+                              .delete()
+                              .then((_) => print('Deleted'))
+                              .catchError((error) => print('Delete failed: $error'));
+                         // firebaseOperations.deleteStudent('StudentName');
+
                         },
                         icon: const Icon(
                           Icons.delete,
@@ -105,7 +121,7 @@ class _StudentListState extends State<StudentList> {
                         ),
                       ),
                     ],
-                  ),
+                    ),
                 ],
               ),
             ),

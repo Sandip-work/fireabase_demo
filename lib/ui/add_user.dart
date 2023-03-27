@@ -124,7 +124,7 @@ class _AddUserState extends State<AddUser> {
                     style: TextStyle(color: Colors.white),
                   ),
                   onPressed: () {
-                    addStudent(
+                    firebaseOperations().addStudent(
                         name: studentNameController.text,
                         enrollNo: enrollNoController.text,
                         age: ageController.text,

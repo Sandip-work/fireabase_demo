@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 
 class Students{
@@ -27,4 +28,10 @@ class Students{
     "Age": age,
     "Email": email,
   };
+
+  Students.fromDocumentSnapshot(DocumentSnapshot<Map<String, dynamic>> doc)
+      : name = doc.data()!["name"],
+        age = doc.data()!["age"],
+        enrollNo = doc.data()!["Enrollment No"],
+         email = doc.data()!["Email"];
 }
