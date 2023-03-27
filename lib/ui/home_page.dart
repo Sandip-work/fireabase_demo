@@ -142,18 +142,15 @@ class _HomePageState extends State<HomePage> {
             itemCount: snapshot.data!.docs.length,
             itemBuilder: (context, index) {
               DocumentSnapshot data = snapshot.data!.docs[index];
-              // return Container();
-              return StudentList(
-                name: data['name'],
-                enrollNo: data['enrollNo'],
-                age: data['age'],
-                email: data['email'],
-              );
-              /*return ListTile(
-                contentPadding: const EdgeInsets.symmetric(horizontal: 20,vertical: 5),
-                leading:  const Icon(Icons.update),
-                title: Text(data.data()."name"]),
-              );*/
+
+              log("data:$data" );
+
+               return StudentList(
+                 name: data['StudentName'],
+                 enrollNo: data['enrollmentNumber'],
+                 age: data['age'],
+                 email: data['Email'],
+               );
             },
           );
         },

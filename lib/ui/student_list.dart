@@ -10,7 +10,7 @@ class StudentList extends StatefulWidget {
    final String age;
    final String email;
 
-   const StudentList({super.key,
+   const StudentList({
      required this.enrollNo,
      required this.name,
      required this.age,
@@ -43,7 +43,7 @@ class _StudentListState extends State<StudentList> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Padding(
+                      Container(
                         padding: const EdgeInsets.only(left: 8.0),
                         child: Text(
                           widget.name,
@@ -53,13 +53,13 @@ class _StudentListState extends State<StudentList> {
                               fontSize: 25),
                         ),
                       ),
-                      Padding(
+                      Container(
                         padding: const EdgeInsets.only(left: 8.0),
                         child: Text(" ${widget.enrollNo}",
                             style:
                             const TextStyle(color: Colors.white, fontSize: 20)),
                       ),
-                      Padding(
+                      Container(
                         padding: const EdgeInsets.only(left: 8.0),
                         child: Text(
                           widget.age,
@@ -69,7 +69,7 @@ class _StudentListState extends State<StudentList> {
                               fontSize: 25),
                         ),
                       ),
-                      Padding(
+                      Container(
                         padding: const EdgeInsets.only(left: 8.0),
                         child: Text(
                           widget.email,
@@ -89,13 +89,15 @@ class _StudentListState extends State<StudentList> {
                         },
                         icon:
                              const Icon(
-                          Icons.favorite,
+                          Icons.update,
                           color: Colors.greenAccent,
                         )
                       ),
                       IconButton(
                         onPressed: () {
-                          //deleteStudent(widget.documentSnapshot);
+                          setState(() {
+                            deleteStudent("StudentName");
+                          });
                         },
                         icon: const Icon(
                           Icons.delete,
