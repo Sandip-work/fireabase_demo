@@ -1,7 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:developer';
 import 'package:untitled/services/firebase_crud.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/models/student.dart';
 
 class StudentList extends StatefulWidget {
 
@@ -10,7 +9,7 @@ class StudentList extends StatefulWidget {
    final String age;
    final String email;
 
-   const StudentList({
+   const StudentList({super.key,
      required this.enrollNo,
      required this.name,
      required this.age,
@@ -87,8 +86,8 @@ class _StudentListState extends State<StudentList> {
                       IconButton(
                         onPressed: () async {
                           await db.collection("students").doc('bFU8ZAv9ZuKITfFxZcd8').update({
-                             'age': '22',
-                          }).then((_) => print("Updated"));
+                             'age': '32',
+                          }).then((_) => log("Updated"));
                         //  editProduct();
                         },
                         icon:
@@ -99,16 +98,13 @@ class _StudentListState extends State<StudentList> {
                       ),
                       IconButton(
                         onPressed: () async {
-
-                         final collection = FirebaseFirestore.instance.collection('students');
-
-                         await collection
+                        // final collection = db.collection('students');
+                         await db.collection('students')
                               .doc()
                               .delete()
-                              .then((_) => print('Deleted'))
-                              .catchError((error) => print('Delete failed: $error'));
+                              .then((_) => log('Deleted'))
+                              .catchError((error) => log('Delete failed: $error'));
                          // firebaseOperations.deleteStudent('StudentName');
-
                         },
                         icon: const Icon(
                           Icons.delete,
