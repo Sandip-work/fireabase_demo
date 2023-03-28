@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0 /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-1 /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-annotation-experimental-1.1.0-2 /home/bhavini-pc/.gradle/caches/transforms-3/ca0459f2b61618257694d91f6ba16f20/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-java-1.0.0-beta04-3 /home/bhavini-pc/.gradle/caches/transforms-3/d7e2d18ae27616d7b8c92da5967fdfc6/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 /home/bhavini-pc/.pub-cache/hosted/pub.dev/connectivity_plus-3.0.3/android/src/main/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 /home/bhavini-pc/.pub-cache/hosted/pub.dev/connectivity_plus-3.0.3/android/src/release/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/generated/res/rs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/intermediates/merged_res/release

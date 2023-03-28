@@ -6,7 +6,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:untitled/models/student.dart';
 import 'package:untitled/services/firebase_crud.dart';
  import 'package:untitled/ui/add_user.dart';
-// import 'package:firestoredatabase/productItem.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/ui/student_list.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';

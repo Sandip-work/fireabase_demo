@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.2.2"
+    buildFolder="/home/bhavini-pc/sandip_work/examples/fireabase_demo/build/app"
+    bootClassPath="/home/bhavini-pc/Android/Sdk/platforms/android-33/android.jar:/home/bhavini-pc/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

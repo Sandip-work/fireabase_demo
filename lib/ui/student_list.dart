@@ -86,14 +86,9 @@ class _StudentListState extends State<StudentList> {
                     children: <Widget>[
                       IconButton(
                         onPressed: () async {
-                          await db.collection("students").doc().update({
-                            // 'enrollmentNumber': enrollNo,
-                            // 'StudentName': name,
-                            // 'age': age,
-                            // 'Email': email,
-                          }).then((documentReference) {
-
-                          });
+                          await db.collection("students").doc('bFU8ZAv9ZuKITfFxZcd8').update({
+                             'age': '22',
+                          }).then((_) => print("Updated"));
                         //  editProduct();
                         },
                         icon:

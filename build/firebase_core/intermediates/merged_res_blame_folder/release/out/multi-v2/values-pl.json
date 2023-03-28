@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10:/values-pl/values-pl.xml",
+            "map": [
+                {
+                    "source": "/home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/res/values-pl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "139",
+                        "endOffsets": "190"
+                    }
+                },
+                {
+                    "source": "/home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "195",
+                        "endColumns": "100",
+                        "endOffsets": "291"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-merged_res-12:/values-pl/values-pl.xml",
+            "map": [
+                {
+                    "source": "/home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/res/values-pl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "139",
+                        "endOffsets": "190"
+                    }
+                },
+                {
+                    "source": "/home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "195",
+                        "endColumns": "100",
+                        "endOffsets": "291"
+                    }
+                }
+            ]
+        }
+    ]
+}

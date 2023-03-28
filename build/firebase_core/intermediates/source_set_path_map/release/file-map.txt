@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-0 /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.3.0-1 /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-2 /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-3 /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-4 /home/bhavini-pc/.gradle/caches/transforms-3/ca0459f2b61618257694d91f6ba16f20/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-5 /home/bhavini-pc/.gradle/caches/transforms-3/d7e2d18ae27616d7b8c92da5967fdfc6/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /home/bhavini-pc/.pub-cache/hosted/pub.dev/firebase_core-2.8.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /home/bhavini-pc/.pub-cache/hosted/pub.dev/firebase_core-2.8.0/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/intermediates/merged_res/release

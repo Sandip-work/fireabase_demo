@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.untitled"
+4    android:versionCode="1" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="33" />
+8-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->[:connectivity_plus] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+10-->[:connectivity_plus] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:5-67
+11-->[com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:13:22-64
+12
+13    <application
+14        android:name="android.app.Application"
+14-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:5:9-42
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] /home/bhavini-pc/.gradle/caches/transforms-3/1889a46292b665610a5536cd4fe3a91d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:6:9-43
+17        android:label="untitled" >
+17-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:4:9-33
+18        <activity
+18-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:7:9-27:20
+19            android:name="com.example.untitled.MainActivity"
+19-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:8:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:12:13-163
+21            android:exported="true"
+21-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:9:13-36
+22            android:hardwareAccelerated="true"
+22-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:13:13-47
+23            android:launchMode="singleTop"
+23-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:10:13-43
+24            android:theme="@style/LaunchTheme"
+24-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:11:13-47
+25            android:windowSoftInputMode="adjustResize" >
+25-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:14:13-55
+26
+27            <!--
+28                 Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:19:13-22:17
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:20:15-70
+35                android:resource="@style/NormalTheme" />
+35-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:21:15-52
+36
+37            <intent-filter>
+37-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:24:17-68
+38-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:25:17-76
+40-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43        <!--
+44             Don't delete the meta-data below.
+45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+46        -->
+47        <meta-data
+47-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:30:9-32:33
+48            android:name="flutterEmbedding"
+48-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:31:13-44
+49            android:value="2" />
+49-->/home/bhavini-pc/sandip_work/examples/fireabase_demo/android/app/src/main/AndroidManifest.xml:32:13-30
+50
+51        <service
+51-->[:cloud_firestore] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[:cloud_firestore] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:18:13-37
+55            <meta-data
+55-->[:cloud_firestore] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+56                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+56-->[:cloud_firestore] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[:cloud_firestore] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+58            <meta-data
+58-->[:firebase_core] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+59                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+59-->[:firebase_core] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[:firebase_core] /home/bhavini-pc/sandip_work/examples/fireabase_demo/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:19:13-21:85
+62                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+62-->[com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:20:17-111
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-firestore:24.4.3] /home/bhavini-pc/.gradle/caches/transforms-3/921e8f5a29312ad260637bd25b48fd41/transformed/jetified-firebase-firestore-24.4.3/AndroidManifest.xml:21:17-82
+64        </service>
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] /home/bhavini-pc/.gradle/caches/transforms-3/bd9c3f430d598c5a11bb802837f8430e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+72
+73        <provider
+73-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+74            android:name="com.google.firebase.provider.FirebaseInitProvider"
+74-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+75            android:authorities="com.example.untitled.firebaseinitprovider"
+75-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:20.3.0] /home/bhavini-pc/.gradle/caches/transforms-3/3c20aee0ba30664851263144dd7f0341/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+79
+80        <activity
+80-->[com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-base:18.0.1] /home/bhavini-pc/.gradle/caches/transforms-3/9719df2641e98312bcdb3b361a7156ef/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+84
+85        <meta-data
+85-->[com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+86            android:name="com.google.android.gms.version"
+86-->[com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+87            android:value="@integer/google_play_services_version" />
+87-->[com.google.android.gms:play-services-basement:18.1.0] /home/bhavini-pc/.gradle/caches/transforms-3/7efa77844d2550e925bbea501e8b2a37/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+88    </application>
+89
+90</manifest>
